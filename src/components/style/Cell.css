@@ -1,0 +1,38 @@
+.cell {
+   font-size: calc(1vw + 4px);
+   font-weight: 600;
+   padding: calc(2vmin - 4px);
+   border: 1px solid;
+   vertical-align: middle;
+   overflow-wrap: break-word;
+   text-align: center;
+}
+ 
+.cell.stamped {
+   background-color: tomato;
+   color: white;
+   font-size: calc(1vw + 4px);
+}
+
+.cell.hidden{
+   background: rgb(131,58,180);
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,167,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.bingo{
+   width: 5vw;
+   height: 5vh;
+}
+
+.cell.picked{
+   margin: 50px;
+   padding: 20px;
+   border-radius: 10px;
+   background: rgb(117, 108, 241);
+   color:white;
+   box-shadow: 5px 5px 5px #3085d6;
+   transition: 2s transform 2s;
+   transform: scale(1.5);
+}
+
+ 
